@@ -4,7 +4,6 @@ import { useState } from 'react'
 import { FaSearch } from "react-icons/fa";
 import { FaSun } from "react-icons/fa";
 import { FaMoon } from "react-icons/fa";
-import axios from 'axios';
 import WeatherInfo from './component/WeatherInfo';
 import NotFound from './component/NotFound';
 
