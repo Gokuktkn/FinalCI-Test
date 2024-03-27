@@ -1,0 +1,105 @@
+.body,
+.content,
+.weather,
+.weather-info,
+.more {
+  display: flex;
+}
+
+.body {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  background-image: linear-gradient(1deg, #141313eb, #3d3b3bab), url(/public/Img/day.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.theme-btn {
+  background: none;
+  border: 0;
+  align-self: flex-end;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.theme-icon {
+  width: 3vw;
+  height: 4vh;
+  background: none;
+}
+
+.light {
+  color: #ffffaf;
+}
+
+.dark {
+  color: #BBB9DE;
+}
+
+.content {
+  padding: 35px;
+  flex-direction: column;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.search {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.weather {
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-input {
+  padding: 10px 25px 10px 10px;
+  font-size: .8em;
+  border-radius: 10px;
+  border: 0;
+}
+
+.search-btn {
+  position: absolute;
+  top: 25%;
+  right: 6px;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.weather-img {
+  background-color: #ffffff82;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.weather-info {
+  font-weight: bold;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more {
+  align-items: center;
+  gap: 20px;
+}
+
+.not-found {
+  background-image: url(../public/Img/404-day.jpg);
+  height: 25vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
