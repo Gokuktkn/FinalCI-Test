@@ -53,7 +53,7 @@ function App() {
           <input type="text" placeholder='Enter your location' className='search-input' onChange={(e) => setInputVal(e.target.value)} />
           <button className='search-btn'><FaSearch className='search-icon' /></button>
         </form>
-        {Object.keys(listData).length > 0 && (found === '' ? '' : found === 'yes' ? <WeatherInfo data={listData} dataTheme={theme} /> : <NotFound />)}
+        {Object.keys(listData).length > 0 && (found === '' ? '' : found === 'yes' ? <WeatherInfo data={listData} dataTheme={theme} /> : <NotFound dataTheme={theme}/>)}
       </div>
     </div>
   )
